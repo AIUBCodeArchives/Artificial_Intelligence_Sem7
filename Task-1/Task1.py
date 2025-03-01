@@ -4,8 +4,8 @@ s = "password1234"
 NewS1 = s[0].upper() + s[1:]
 print(NewS1)
 
-#b
-print(s.replace('a', 'e').replace('e', 'i').replace('i', 'o').replace('o', 'u').replace('u', 'a'))
+#b // not user input 
+print(s.replace('a', 'e').replace('o', 'u'))
 
 #c
 print(s.replace('s', '$').replace('S', '$'))
